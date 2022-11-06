@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KeCRZHzFr7keyFYpL0TsIki1xvrzO2kzlDRb7Zw4yKZNp3NJh9z6kgkiHklkVenCoYpsUbuFEYWmNCoSf4udnQ==",
+  "dgSpecHash": "hd0l5KYmokGL6KcK89xZDmu3WCXfphkjLAIzkvDzUPxvxeGeRY86IQfTeJTYfDHtBaUcBWilf3BYESUyvK5ZLw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\xinyu\\Desktop\\Csharp-Projects\\Calculator Final\\CalculatorFinal.csproj",
+  "projectFilePath": "C:\\Users\\xinyu\\OneDrive\\文档\\02-实习\\Csharp-Projects\\Calculator Final\\CalculatorFinal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\xinyu\\.nuget\\packages\\communitytoolkit.mvvm\\8.0.0\\communitytoolkit.mvvm.8.0.0.nupkg.sha512"
   ],

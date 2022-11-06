@@ -17,13 +17,13 @@ namespace CalculatorFinal
             {
                 string[] parts = str.Split('.');
                 double.TryParse(parts[0], out result);
-                double _ = 0;
-                double.TryParse(parts[1], out _);
-                _ /= Math.Pow(10, parts[1].Length);
+                double _decimal = 0;
+                double.TryParse(parts[1], out _decimal);
+                _decimal /= Math.Pow(10, parts[1].Length);
                 if (result >= 0)
-                    result += _;
+                    result += _decimal;
                 else
-                    result -= _;
+                    result -= _decimal;
                 return result;
             }
 
@@ -62,6 +62,10 @@ namespace CalculatorFinal
                 if (current == '-'
                     && (next == '-' || next == '+' || next == '×' || next == '÷'))
                 {
+                    /// avoid mixing frontend and backend. 
+                    /// don't show message boxes from backend unless it has a good reason to.
+                    /// In this case, it pauses the unit tests from running, waiting for user input. 
+                    /// Unit tests should also be able to run without user interventions
                     MessageBox.Show("Inputs has two calculate sign!!!!");
                     return false;
                 }

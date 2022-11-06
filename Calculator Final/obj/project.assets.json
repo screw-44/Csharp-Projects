@@ -62,11 +62,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\xinyu\\Desktop\\Csharp-Projects\\Calculator Final\\CalculatorFinal.csproj",
+      "projectUniqueName": "C:\\Users\\xinyu\\OneDrive\\文档\\02-实习\\Csharp-Projects\\Calculator Final\\CalculatorFinal.csproj",
       "projectName": "CalculatorFinal",
-      "projectPath": "C:\\Users\\xinyu\\Desktop\\Csharp-Projects\\Calculator Final\\CalculatorFinal.csproj",
+      "projectPath": "C:\\Users\\xinyu\\OneDrive\\文档\\02-实习\\Csharp-Projects\\Calculator Final\\CalculatorFinal.csproj",
       "packagesPath": "C:\\Users\\xinyu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\xinyu\\Desktop\\Csharp-Projects\\Calculator Final\\obj\\",
+      "outputPath": "C:\\Users\\xinyu\\OneDrive\\文档\\02-实习\\Csharp-Projects\\Calculator Final\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
